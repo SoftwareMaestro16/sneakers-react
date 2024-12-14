@@ -118,7 +118,6 @@ header {
 }
 
 .cartTotalBlock {
-  
   ul {
     display: block;
     margin-bottom: 30px !important;
@@ -139,7 +138,7 @@ header {
     }
   }
 
-  button {
+button {
     position: relative;
     width: 100%;
     background-color: #9dd558;
@@ -199,4 +198,9 @@ header {
   &:hover {
     opacity: 1;
   }
+}
+
+.text-li {
+  position: relative;
+  margin-left: -5px;
 }

@@ -20,7 +20,12 @@ function Header(props) {
               </span> 
             </li>
             <li className="d-flex align-center"> 
+              <img className="cu-p" src="/images/favorite-heart.svg" />
+              <p className="text-li mr-15">Закладки</p>
+            </li>
+            <li className="d-flex align-center"> 
               <img className="cu-p" src="/images/user.svg" />
+              <p className="text-li mr-15">Профиль</p>
             </li>
           </ul>
         </header>
